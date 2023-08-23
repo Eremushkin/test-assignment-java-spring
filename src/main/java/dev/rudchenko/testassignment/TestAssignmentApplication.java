@@ -23,7 +23,7 @@ public class TestAssignmentApplication {
         ConfigurableApplicationContext applicationContext = SpringApplication.run(TestAssignmentApplication.class, args);
 
         applicationContext.getBean(CalculationProcessor.class).processTask(args[0]);
-        System.out.println(Arrays.toString(args));
+        System.out.println(Arrays.toString(args)); //delete
     }
 
 }
